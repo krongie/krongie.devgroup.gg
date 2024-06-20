@@ -1,0 +1,15 @@
+// config.js
+
+export const config = {
+  games: [
+    {
+      name: "BedFight",
+      discordLink: "https://discord.gg/bedfight",
+      twitterLink: "https://twitter.com/bedfight",
+      icon: "assets/images/bedfightIcon.png",
+      currentPlayers: 0, // This will be updated by a POST request from Roblox Studio
+    }
+  ],
+  email: "bedfightdev@gmail.com",
+  portfolio: "https://krongi.studio/portfolio"
+};
